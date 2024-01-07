@@ -80,5 +80,3 @@ button:hover{
 #check:checked + .login{
     transform: translateY(-300px);
 }
-span { color: red; }
-input:checked + span { color: blue; }
