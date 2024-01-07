@@ -11,10 +11,13 @@ body{
     background-image: linear-gradient(#4a55a2,#7895cb,#24243e);
 }
 .container{
-    width: 300px;
+    width: 320px;
     height: 500px;
     text-align: center;
-    padding: 20px;
+    border-radius: 20px;
+    box-shadow: black 0px 11px 34px 5px;
+    overflow: hidden;
+    position: relative;
 }
 input{
     background-color: #e0dede;
@@ -52,4 +55,25 @@ button:hover{
 }
 .signup form{
     margin-top: 50px;
+}
+.login{
+    background-color: #eeeeee;
+    width: 450px;
+    position: absolute;
+    right: -20%;
+    height: 500px;
+    padding: 15px 20px;
+    transform: translateY(60px);
+    border-radius: 40% 40% 0 0;
+    transition: all .2s;
+}
+.login form{
+    margin-top: 30px;
+}
+#login_{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    color: #4A55A2;
+    cursor: pointer;
 }
